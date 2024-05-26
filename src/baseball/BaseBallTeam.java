@@ -6,8 +6,7 @@ public class BaseBallTeam {
     private int baseBallTeamWin;
     private int baseBallTeamLose;
     private int baseBallTEamDraw;
-    public int report;
-    public double result;
+
 
     public BaseBallTeam() {
     }
@@ -21,7 +20,7 @@ public class BaseBallTeam {
     }
 
     public void report() {
-        result = getRate();
+
         System.out.println(this.baseBallTeamName + "の2022年の成績は" + this.baseBallTeamWin + "勝" + this.baseBallTeamLose
                 + "敗" + this.baseBallTEamDraw + "分、勝率は" + getRate() + "です。");
     }
